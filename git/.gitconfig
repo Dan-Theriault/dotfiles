@@ -1,0 +1,7 @@
+[user]
+	email = dannymt97@gmail.com
+	name = dannymt97
+[push]
+	default = simple
+[core]
+	excludesfile = /home/dtheriault3/.gitignore_global
