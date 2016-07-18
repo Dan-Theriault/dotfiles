@@ -171,7 +171,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # easy lockout
-bindsym $mod+shift+x exec i3lock -e -i ~/Pictures/Lock && systemctl hibernate
+bindsym $mod+shift+x exec systemctl hibernate
 
 # ======= HARDWARE KEY CONTROLS =======
 
