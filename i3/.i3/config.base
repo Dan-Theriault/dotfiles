@@ -207,7 +207,7 @@ bindsym $mod+Left exec ~/Scripts/rotate-left.sh
 bindsym $mod+Right exec ~/Scripts/rotate-right.sh
 
 # ====== ROFI ======
-bindsym $mod+d exec rofi -show run -lines 7 -eh 2 -width 100 -padding 450 -opacity "95" -bw 0 -font "Input Sans Condensed 16" -hide-scrollbar -separator-style "none"
+bindsym $mod+d exec rofi -show run 
 
 # ======= AUTORUNS =======
 exec --no-startup-id compton --backend glx --vsync opengl --blur-background &
