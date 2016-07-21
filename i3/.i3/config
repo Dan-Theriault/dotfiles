@@ -204,7 +204,7 @@ bindsym $mod+Right exec ~/Scripts/rotate-right.sh
 
 # ====== ROFI ======
 bindsym $mod+d exec rofi -show run 
-bindysm $mod+q exec ~/Development/dxdt/rofi-dxdt.sh
+bindsym $mod+a exec ~/Scripts/rofi-dxdt.sh
 
 # ======= AUTORUNS =======
 exec --no-startup-id compton --backend glx --vsync opengl --blur-background &
