@@ -52,11 +52,15 @@ rofi.color-window: base00, base00
 rofi.lines: 7
 rofi.eh: 2
 rofi.width: 100
-rofi.padding: 450
+rofi.padding: 470
 rofi.opacity: 97
 rofi.bw: 0
 rofi.font: Input Mono Condensed 16
 rofi.hide-scrollbar: true
 rofi.separator-style: none
+
+! urxvt configuration
+urxvt.scrollBar: false
+urxvt.font: xft:InputMonoCondensed:size=10
 
 

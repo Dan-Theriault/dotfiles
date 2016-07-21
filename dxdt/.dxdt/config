@@ -1,0 +1,16 @@
+[default]
+editor = xdg-open
+book = notes
+
+[notes]
+path = /home/dtheriault3/Notes
+extension = .md
+editor = termite
+arg1 = -e
+arg2 = vim
+
+[org]
+path = /home/dtheriault3/org
+extension = .org
+editor = emacs
+
