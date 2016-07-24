@@ -52,7 +52,7 @@ rofi.color-window: base00, base00
 rofi.lines: 7
 rofi.eh: 2
 rofi.width: 100
-rofi.padding: 470
+rofi.padding: 486
 rofi.opacity: 97
 rofi.bw: 0
 rofi.font: Input Mono Condensed 16

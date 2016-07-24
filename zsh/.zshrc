@@ -55,7 +55,7 @@ plugins=(gitfast git_remtoe_branch colored-man-pages colorize command-not-found 
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$HOME/Android/Sdk/platform-tools:/usr/sbin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$HOME/Android/Sdk/platform-tools:/usr/sbin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
