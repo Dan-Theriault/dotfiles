@@ -203,7 +203,9 @@ bindsym $mod+Left exec ~/Scripts/rotate-left.sh
 bindsym $mod+Right exec ~/Scripts/rotate-right.sh
 
 # ====== ROFI ======
-bindsym $mod+d exec rofi -show run 
+bindsym $mod+d exec rofi -show run
+bindsym $mod+Shift+d exec rofi -show combi
+bindsym $mod+Shift+d exec rofi -show window
 bindsym $mod+a exec ~/Scripts/rofi-dxdt.sh
 
 # ======= AUTORUNS =======

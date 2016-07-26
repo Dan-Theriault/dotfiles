@@ -48,19 +48,24 @@
 rofi.color-normal: base00, base05, base00, base00, base0D
 rofi.color-active: base00, base05, base00, base00, base0D
 !                  'bg',   'border'
-rofi.color-window: base00, base00
-rofi.lines: 7
-rofi.eh: 2
-rofi.width: 100
-rofi.padding: 486
-rofi.opacity: 97
-rofi.bw: 0
-rofi.font: Input Mono Condensed 16
+rofi.color-window: base00, base0D
+rofi.opacity: 100
+
+rofi.bw: 4
+rofi.lines: 10
+rofi.location: 0
+rofi.eh: 1
+rofi.line-margin: 20
+rofi.width: 55
+rofi.padding: 40
+
+rofi.combi-modi: run,window,drun
+rofi.fuzzy: true
+
+rofi.font: Input Mono Condensed 15
 rofi.hide-scrollbar: true
-rofi.separator-style: none
+rofi.separator-style: solid
 
 ! urxvt configuration
 urxvt.scrollBar: false
 urxvt.font: xft:InputMonoCondensed:size=10
-
-
