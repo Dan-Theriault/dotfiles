@@ -181,8 +181,8 @@ bindsym Alt+XF86AudioLowerVolume exec pactl set-sink-volume 2 +5%
 bindsym Alt+XF86AudioMute exec pactl set-sink-mute 2 toggle
 
 # Screen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec light -A 1 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 1 # decrease screen brightness
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
