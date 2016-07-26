@@ -14,3 +14,9 @@ path = /home/dtheriault3/org
 extension = .org
 editor = emacs
 
+[Sketch]
+path = /home/dtheriault3/Documents/Sketch
+extension = .xoj
+editor = xournal
+template = blank.xoj
+
