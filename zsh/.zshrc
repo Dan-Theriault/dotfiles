@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -51,7 +51,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gitfast git_remtoe_branch colored-man-pages colorize command-not-found cp pass torrent debian dirhistory last-working-dir pip python sudo systemd web-search wd)
+plugins=(git git-extras gitfast git-remote-branch colored-man-pages colorize command-not-found debian safe-paste gpg-agent last-working-dir pip python sudo systemd gnu-utils)
 
 # User configuration
 
@@ -94,9 +94,7 @@ alias ipy3="ipython3"
 
 alias paste-strip="xclip -o | xclip -selection clipboard"
 alias o="xdg-open"
-alias checkstyle="java -jar /home/dtheriault3/Documents/CS1332/checkstyle/checkstyle-6.14.1-all.jar -c /home/dtheriault3/Documents/CS1332/checkstyle/CS1332-checkstyle.xml"
 alias tmux="tmux -2"
-alias notat="notational-momentum -d ~/Notes"
 
 export CLASSPATH=.:/usr/share/java/junit4.jar:/usr/share/java/hamcrest.jar
 # source /usr/local/lib/python3.4/dist-packages/powerline/bindings/zsh/powerline.zsh
