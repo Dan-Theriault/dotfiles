@@ -208,7 +208,6 @@ exec --no-startup-id compton --backend glx --vsync opengl --blur-background &
 exec_always --no-startup-id feh --bg-fill /home/dtheriault3/Pictures/Wallpaper &
 exec --no-startup-id ~/Scripts/startup.sh
 exec --no-startup-id ~/bin/enpass &
-exec --no-startup-id geary
 
 # ======= APPEARANCE =======
 for_window [class="^.*"] border pixel 2
