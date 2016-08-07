@@ -5,9 +5,7 @@ book = notes
 [notes]
 path = /home/dtheriault3/Notes
 extension = .md
-editor = gnome-terminal
-arg1 = -e
-arg2 = vim
+editor = atom
 
 [org]
 path = /home/dtheriault3/org
