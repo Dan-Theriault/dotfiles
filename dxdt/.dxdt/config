@@ -1,20 +1,40 @@
 [default]
 editor = xdg-open
-book = notes
+book = Notebook
 
-[notes]
+[Notebook]
 path = /home/dtheriault3/Notes
 extension = .md
 editor = atom
 
-[org]
-path = /home/dtheriault3/org
-extension = .org
-editor = emacs
-
-[Sketch]
+[Scratchpad]
 path = /home/dtheriault3/Documents/Sketch
 extension = .xoj
 editor = xournal
 template = blank.xoj
 
+[CS-2110]
+path = ~/Documents/CS-2110/Notes
+extension = .md
+editor = atom
+
+[CS-2340]
+path = ~/Documents/CS-2340/Notes
+extension = .md
+editor = atom
+
+[CS-3750]
+path = ~/Documents/CS-3750/Notes
+extension = .md
+editor = atom
+
+[ISYE-3770]
+path = ~/Documents/ISYE-3770/Notes
+extension = .xoj
+editor = xournal
+template = blank.xoj
+
+[CS-4400]
+path = ~/Documents/CS-4400/Notes
+extension = .md
+editor = atom

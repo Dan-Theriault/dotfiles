@@ -63,10 +63,10 @@ rofi.padding: 40
 rofi.combi-modi: run,window,drun
 rofi.fuzzy: true
 
-rofi.font: Input Mono Condensed 15
+rofi.font: Source Code Pro 15
 rofi.hide-scrollbar: true
 rofi.separator-style: solid
 
 ! urxvt configuration
 urxvt.scrollBar: false
-urxvt.font: xft:InputMonoCondensed:size=10
+urxvt.font: xft:SourceCodePro:size=10
