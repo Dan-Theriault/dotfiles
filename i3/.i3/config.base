@@ -72,12 +72,6 @@ set $ws4 "4. "
 assign [class="Xournal"] $ws4
 
 set $ws5 "5. "
-assign [class="libreoffice-*"] $ws5
-assign [class="Gimp"] $ws5
-assign [class="Audacity"] $ws5
-assign [class="Dia-gnome"] $ws5
-assign [class="Inkscape"] $ws5
-assign [class="Lyx"] $ws5
 
 set $ws6 "6. "
 assign [class="geary"] $ws1
